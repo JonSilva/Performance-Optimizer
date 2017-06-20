@@ -3,6 +3,14 @@
 To successfully run the application download the files and use a compatible browser, IE, Chrome, etc.
 
 index.html
+- Inlined all applicable css to the <head> in it's own <style> tag. 
+  optimized via https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery
+- optimised, resized pizzeria.jpg
+- Added media="print" to the print.css
+- Commented fonts.googleapis - this slowed the page performance.
+
+
+
 
 For pizza.html, 
 views/js/main.js 
