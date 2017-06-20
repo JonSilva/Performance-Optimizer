@@ -476,7 +476,7 @@ var pizzaFragment = document.createDocumentFragment();
 for (var i = 2; i < 100; i++) {
   pizzaFragment.appendChild(pizzaElementGenerator(i));
 }
-var pizzasDiv = document.getElementById("randomPizzas");
+var pizzasDiv = document.getElementById("#randomPizzas");
 pizzasDiv.appendChild(pizzaFragment.cloneNode(true));
 
 // User Timing API again. These measurements tell you how long it took to generate the initial pizzas
